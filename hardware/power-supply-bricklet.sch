@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:power-supply-bricklet-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1007,8 +1008,6 @@ Wire Wire Line
 Wire Wire Line
 	9250 2000 9950 2000
 Connection ~ 9250 2000
-Text Notes 4050 1600 0    236  ~ 0
-Sicherung?
 Wire Wire Line
 	3850 5500 3700 5500
 NoConn ~ 3850 5000
@@ -1016,4 +1015,6 @@ Wire Wire Line
 	3100 5600 3850 5600
 NoConn ~ 3850 5700
 NoConn ~ 3850 6000
+NoConn ~ 3850 3550
+NoConn ~ 3850 3350
 $EndSCHEMATC

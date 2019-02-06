@@ -1,4 +1,4 @@
-update=Mi 24 Okt 2018 15:30:48 CEST
+update=Mi 06 Feb 2019 12:23:49 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -13,6 +13,19 @@ NetType=0
 EquName1=devcms
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+[eeschema]
+version=1
+LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -32,16 +45,3 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.25
 BoardOutlineThickness=0.381
 ModuleOutlineThickness=0.05
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-[eeschema]
-version=1
-LibDir=
