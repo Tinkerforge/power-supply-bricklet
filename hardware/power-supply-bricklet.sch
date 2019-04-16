@@ -661,7 +661,7 @@ Wire Wire Line
 	6850 850  6500 850 
 Connection ~ 5450 850 
 Wire Wire Line
-	5450 850  5050 850 
+	5450 850  5150 850 
 Wire Wire Line
 	5450 850  5450 1400
 Wire Wire Line
@@ -1210,4 +1210,25 @@ Wire Wire Line
 Connection ~ 10650 4750
 Wire Wire Line
 	10350 4750 10350 5000
+$Comp
+L tinkerforge:Cs C6
+U 1 1 5CB95D31
+P 5150 1500
+F 0 "C6" H 5250 1531 31  0000 L CNN
+F 1 "10uF" H 5250 1469 31  0000 L CNN
+F 2 "kicad-libraries:C0805E" H 5150 1500 60  0001 C CNN
+F 3 "" H 5150 1500 60  0000 C CNN
+	1    5150 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 1400 5150 850 
+Connection ~ 5150 850 
+Wire Wire Line
+	5150 850  5050 850 
+Wire Wire Line
+	5150 1600 5150 2500
+Wire Wire Line
+	5150 2500 5450 2500
+Connection ~ 5450 2500
 $EndSCHEMATC
